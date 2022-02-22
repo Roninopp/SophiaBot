@@ -6,7 +6,7 @@ from sys import argv
 from typing import Optional
 from pyrogram import filters, idle
 
-from SophiaBot import (
+from Samurai import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there 👋! My name is *Sophia*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
+PM_START_TEXT = """Hey there 👋! My name is *Samurai*.\n\nI can help manage your groups with useful features, feel free to add me to your groups!."""
 
 STICKERS = (
       "CAACAgUAAx0CTpRfGwACF41hMfagTfWdHNFici1VtOCQVVNYmgACgh8AAsZRxhU6tKJa_ySnnCAE",
@@ -94,11 +94,11 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" Sophia News 🙋‍♀️ ", url=f"https://t.me/SophiaUpdates"),
-        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://t.me/SophiaSupport_Official"),
+        InlineKeyboardButton(text=" samurai News 🙋‍♀️ ", url=f"https://@Ronin_Fighter_Fd"),
+        InlineKeyboardButton(text=" Support Group 💬 ", url=f"https://@Ronin_Fighters_Fd"),
     ],
     [
-        InlineKeyboardButton(text="➕ Add Sophia to your Group ➕", url="t.me/SophiaSLBot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ Add Samurai to your Group ➕", url="@Ronin_Fighters,_fd?startgroup=true"),   
     ],
 ]
 
